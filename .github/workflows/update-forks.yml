@@ -1,0 +1,35 @@
+name: Update Forked Repos List
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs daily at 2:00 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+jobs:
+  update-forks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements
+        run: pip install requests
+
+      - name: Generate forks.md
+        run: python scripts/generate_forks_md.py
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update communityforks.md with latest forked repos"
+          file_pattern: '*forks.md'
