@@ -18,3 +18,8 @@ One thing we must stress is that if you find any of the repositories useful plea
     <img src="./images/fabric_48_color.png" alt="Microsoft Fabric">
 </p>
 
+<!-- counterAPI library -->
+<script src="https://counterapi.com/c.js?ns=FabricEssentials.github.io/" async ></script>
+<!-- Add the counter instance-->
+<div class="counterapi" style="min-height:44px" ></div>
+
