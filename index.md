@@ -1,4 +1,4 @@
-# Welcome to Fabric Essentials
+# Welcome to the Fabric Essentials collection
 
 We know how hard it is to identify GitHub repositories that you can use as part of your Microsoft Fabric solutions. Which is why carious members of the Microsoft Data Platform community have put together Fabric Essentials. So that you can quickly find the Microsoft Fabric related repository in GitHub that you need! 
 
