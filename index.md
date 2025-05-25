@@ -21,5 +21,7 @@ One thing we must stress is that if you find any of the repositories useful plea
 <!-- counterAPI library -->
 <script src="https://counterapi.com/c.js?ns=FabricEssentials.github.io/" async ></script>
 <!-- Add the counter instance-->
-<div class="counterapi" style="min-height:44px" ></div>
+<div class="counterapi" label="views" style="min-height:44px" ></div>
+
+Count is provided by [CounterAPI](https://counterapi.com/)
 
