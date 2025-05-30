@@ -10,3 +10,8 @@
   - **Original Owner**: kerski
   - **Description**: Templates for weaving DataOps into Microsoft Fabric
 
+- **[fabric-cli-powerbi-cicd-sample](https://github.com/FabricEssentials/fabric-cli-powerbi-cicd-sample)**
+  - **Original Repository**: [https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample](https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample)
+  - **Original Owner**: RuiRomano
+  - **Description**: Fork of Rui's excellent repository
+
