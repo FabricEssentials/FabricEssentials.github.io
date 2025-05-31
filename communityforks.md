@@ -13,5 +13,5 @@
 - **[fabric-cli-powerbi-cicd-sample](https://github.com/FabricEssentials/fabric-cli-powerbi-cicd-sample)**
   - **Original Repository**: [https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample](https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample)
   - **Original Owner**: RuiRomano
-  - **Description**: Fork of Rui's excellent repository
+  - **Description**: demonstrates a Fabric CI/CD scenario using fabric-cli and GitHub
 
