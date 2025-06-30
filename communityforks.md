@@ -10,3 +10,13 @@
   - **Original Owner**: RuiRomano
   - **Description**: demonstrates a Fabric CI/CD scenario using fabric-cli and GitHub
 
+- **[msfabricutils](https://github.com/FabricEssentials/msfabricutils)**
+  - **Original Repository**: [https://github.com/mrjsj/msfabricutils](https://github.com/mrjsj/msfabricutils)
+  - **Original Owner**: mrjsj
+  - **Description**: Spark-free Python utilities for Microsoft Fabric focused on Data Engineering using Polars and delta-rs
+
+- **[PBI-InspectorV2](https://github.com/FabricEssentials/PBI-InspectorV2)**
+  - **Original Repository**: [https://github.com/NatVanG/PBI-InspectorV2](https://github.com/NatVanG/PBI-InspectorV2)
+  - **Original Owner**: NatVanG
+  - **Description**: Rules-based metadata testing for the Microsoft Power BI visual layer and other Fabric Items.
+
