@@ -25,3 +25,8 @@
   - **Original Owner**: bennyaustin
   - **Description**: Accelerator to build a Microsoft Fabric modern data platform using pre-built reusable Fabric items and an orchestration ELT Framework
 
+- **[pbi-ci-cd-isv-multi-tenant](https://github.com/FabricEssentials/pbi-ci-cd-isv-multi-tenant)**
+  - **Original Repository**: [https://github.com/alisonpezzott/pbi-ci-cd-isv-multi-tenant](https://github.com/alisonpezzott/pbi-ci-cd-isv-multi-tenant)
+  - **Original Owner**: alisonpezzott
+  - **Description**: CI/CD scenario Multi Tenant for Microsoft Power BI PRO projects by utilizing fabric-cli and GitHub Actions
+
