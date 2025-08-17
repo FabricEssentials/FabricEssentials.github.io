@@ -20,3 +20,8 @@
   - **Original Owner**: NatVanG
   - **Description**: Rules-based metadata testing for the Microsoft Power BI visual layer and other Fabric Items.
 
+- **[fabric-accelerator](https://github.com/FabricEssentials/fabric-accelerator)**
+  - **Original Repository**: [https://github.com/bennyaustin/fabric-accelerator](https://github.com/bennyaustin/fabric-accelerator)
+  - **Original Owner**: bennyaustin
+  - **Description**: Accelerator to build a Microsoft Fabric modern data platform using pre-built reusable Fabric items and an orchestration ELT Framework
+
