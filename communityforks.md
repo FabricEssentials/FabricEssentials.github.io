@@ -45,3 +45,8 @@
   - **Original Owner**: djouallah
   - **Description**: Fabric Python Notebooks examples
 
+- **[Fabric-Analytics-MCP](https://github.com/FabricEssentials/Fabric-Analytics-MCP)**
+  - **Original Repository**: [https://github.com/santhoshravindran7/Fabric-Analytics-MCP](https://github.com/santhoshravindran7/Fabric-Analytics-MCP)
+  - **Original Owner**: santhoshravindran7
+  - **Description**: A Model Context Protocol (MCP) server that enables AI assistants to securely access and analyze Microsoft Fabric Analytics data through authenticated API calls.
+
