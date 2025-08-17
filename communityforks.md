@@ -40,3 +40,8 @@
   - **Original Owner**: stephbruno
   - **Description**: None
 
+- **[Fabric_Notebooks_Demo](https://github.com/FabricEssentials/Fabric_Notebooks_Demo)**
+  - **Original Repository**: [https://github.com/djouallah/Fabric_Notebooks_Demo](https://github.com/djouallah/Fabric_Notebooks_Demo)
+  - **Original Owner**: djouallah
+  - **Description**: Fabric Python Notebooks examples
+
