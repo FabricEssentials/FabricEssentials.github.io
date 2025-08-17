@@ -30,3 +30,13 @@
   - **Original Owner**: alisonpezzott
   - **Description**: CI/CD scenario Multi Tenant for Microsoft Power BI PRO projects by utilizing fabric-cli and GitHub Actions
 
+- **[Fabric-Archive-Bot](https://github.com/FabricEssentials/Fabric-Archive-Bot)**
+  - **Original Repository**: [https://github.com/JamesDBartlett3/Fabric-Archive-Bot](https://github.com/JamesDBartlett3/Fabric-Archive-Bot)
+  - **Original Owner**: JamesDBartlett3
+  - **Description**: A fully automated Microsoft Fabric/Power BI tenant backup solution written in PowerShell
+
+- **[Power-BI-Accessibility-Checker](https://github.com/FabricEssentials/Power-BI-Accessibility-Checker)**
+  - **Original Repository**: [https://github.com/stephbruno/Power-BI-Accessibility-Checker](https://github.com/stephbruno/Power-BI-Accessibility-Checker)
+  - **Original Owner**: stephbruno
+  - **Description**: None
+
