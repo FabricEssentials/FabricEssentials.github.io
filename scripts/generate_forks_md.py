@@ -81,6 +81,9 @@ def main():
             detailed_repo = fetch_repository_details(repo["name"], headers)
             forked_repos.append(detailed_repo)
 
+    # Sort forked_repos by repo["name"]
+    forked_repos.sort(key=lambda repo: repo["name"])
+
     # Generate the Markdown file
     generate_forks_markdown(forked_repos)
 
