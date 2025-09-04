@@ -55,7 +55,7 @@ def write_markdown_file(repos, output_file, title):
         f.write(f"# {title}\n\n")
         if repos:
             # Sort repos by name before writing
-            sorted_repos = sorted(repos, key=lambda repo: repo["name"])
+            sorted_repos = sorted(repos, key=lambda repo: repo["name"].lower())
             for repo in sorted_repos:
                 name = repo["name"]
                 description = repo.get("description", "No description available")
