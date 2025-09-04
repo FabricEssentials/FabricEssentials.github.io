@@ -54,7 +54,9 @@ def write_markdown_file(repos, output_file, title):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(f"# {title}\n\n")
         if repos:
-            for repo in repos:
+            # Sort repos by name before writing
+            sorted_repos = sorted(repos, key=lambda repo: repo["name"])
+            for repo in sorted_repos:
                 name = repo["name"]
                 description = repo.get("description", "No description available")
                 fork_url = repo["html_url"]
