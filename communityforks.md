@@ -35,6 +35,11 @@
   - **Original Owner**: djouallah
   - **Description**: Fabric Python Notebooks examples
 
+- **[FabricTools](https://github.com/FabricEssentials/FabricTools)**
+  - **Original Repository**: [https://github.com/dataplat/FabricTools](https://github.com/dataplat/FabricTools)
+  - **Original Owner**: dataplat
+  - **Description**: FabricTools is a free, open-source, community-driven PowerShell module designed to facilitate the management of Microsoft Fabric workspaces and capacities.
+
 - **[msfabricutils](https://github.com/FabricEssentials/msfabricutils)**
   - **Original Repository**: [https://github.com/mrjsj/msfabricutils](https://github.com/mrjsj/msfabricutils)
   - **Original Owner**: mrjsj

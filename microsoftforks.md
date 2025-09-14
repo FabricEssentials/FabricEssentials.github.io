@@ -20,3 +20,8 @@
   - **Original Owner**: microsoft
   - **Description**: Fabric toolbox is a repository of tools, accelerators, scripts, and samples to accelerate your success with Microsoft Fabric, brought to you by Fabric CAT.
 
+- **[semantic-link-labs](https://github.com/FabricEssentials/semantic-link-labs)**
+  - **Original Repository**: [https://github.com/microsoft/semantic-link-labs](https://github.com/microsoft/semantic-link-labs)
+  - **Original Owner**: microsoft
+  - **Description**: Early access to new features for Microsoft Fabric's Semantic Link.
+
