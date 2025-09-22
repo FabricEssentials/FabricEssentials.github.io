@@ -5,6 +5,11 @@
   - **Original Owner**: kevchant
   - **Description**: Shows how to operationalize fabric-cicd to work with Microsoft Fabric and YAML Pipelines in Azure DevOps
 
+- **[FabOps-Toolkit](https://github.com/FabricEssentials/FabOps-Toolkit)**
+  - **Original Repository**: [https://github.com/Onyx-Data/FabOps-Toolkit](https://github.com/Onyx-Data/FabOps-Toolkit)
+  - **Original Owner**: Onyx-Data
+  - **Description**: A Toolkit with multiple tools to manage Microsoft Fabric
+
 - **[fabric-accelerator](https://github.com/FabricEssentials/fabric-accelerator)**
   - **Original Repository**: [https://github.com/bennyaustin/fabric-accelerator](https://github.com/bennyaustin/fabric-accelerator)
   - **Original Owner**: bennyaustin
