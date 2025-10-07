@@ -10,6 +10,11 @@
   - **Original Owner**: microsoft
   - **Description**: Jumpstart CICD deployments in Microsoft Fabric
 
+- **[fabric-cli](https://github.com/FabricEssentials/fabric-cli)**
+  - **Original Repository**: [https://github.com/microsoft/fabric-cli](https://github.com/microsoft/fabric-cli)
+  - **Original Owner**: microsoft
+  - **Description**: ⚡ Microsoft Fabric CLI
+
 - **[fabric-rti-mcp](https://github.com/FabricEssentials/fabric-rti-mcp)**
   - **Original Repository**: [https://github.com/microsoft/fabric-rti-mcp](https://github.com/microsoft/fabric-rti-mcp)
   - **Original Owner**: microsoft

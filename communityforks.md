@@ -45,6 +45,11 @@
   - **Original Owner**: dataplat
   - **Description**: FabricTools is a free, open-source, community-driven PowerShell module designed to facilitate the management of Microsoft Fabric workspaces and capacities.
 
+- **[GitHub-FUAM-Deploymenator](https://github.com/FabricEssentials/GitHub-FUAM-Deploymenator)**
+  - **Original Repository**: [https://github.com/kevchant/GitHub-FUAM-Deploymenator](https://github.com/kevchant/GitHub-FUAM-Deploymenator)
+  - **Original Owner**: kevchant
+  - **Description**: FUAM deployment accelerator to push FUAM deployments from GitHub to a Microsoft Fabric tenant
+
 - **[msfabricutils](https://github.com/FabricEssentials/msfabricutils)**
   - **Original Repository**: [https://github.com/mrjsj/msfabricutils](https://github.com/mrjsj/msfabricutils)
   - **Original Owner**: mrjsj
@@ -64,4 +69,9 @@
   - **Original Repository**: [https://github.com/stephbruno/Power-BI-Accessibility-Checker](https://github.com/stephbruno/Power-BI-Accessibility-Checker)
   - **Original Owner**: stephbruno
   - **Description**: None
+
+- **[Power-BI-Backup-Impact-Analysis-Governance-Solution](https://github.com/FabricEssentials/Power-BI-Backup-Impact-Analysis-Governance-Solution)**
+  - **Original Repository**: [https://github.com/chris1642/Power-BI-Backup-Impact-Analysis-Governance-Solution](https://github.com/chris1642/Power-BI-Backup-Impact-Analysis-Governance-Solution)
+  - **Original Owner**: chris1642
+  - **Description**: 1-click solution for Power BI and Fabric Governance. Automatically backs up reports, models, and dataflows while extracting complete metadata for impact analysis, refresh tracking, and complete lineage - down to the visual level - even when multiple reports across workspaces connect to a single model.
 
