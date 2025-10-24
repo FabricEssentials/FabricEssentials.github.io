@@ -23,7 +23,7 @@ One thing we must stress is that if you find any of the repositories useful plea
 </p>
 
 <!-- counterAPI library -->
-<script src="https://counterapi.com/c.js?ns=FabricEssentials.github.io/" async ></script>
+<script src="https://counterapi.com/c.js?ns=FabricEssentials.github.io" async ></script>
 <!-- Add the counter instance-->
 <div class="counterapi" label="views" style="min-height:44px" ></div>
 
