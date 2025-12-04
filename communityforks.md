@@ -5,6 +5,11 @@
   - **Original Owner**: kevchant
   - **Description**: Shows how to operationalize fabric-cicd to work with Microsoft Fabric and YAML Pipelines in Azure DevOps
 
+- **[DWA](https://github.com/FabricEssentials/DWA)**
+  - **Original Repository**: [https://github.com/ProdataSQL/DWA](https://github.com/ProdataSQL/DWA)
+  - **Original Owner**: ProdataSQL
+  - **Description**: Fabric Data Warehouse Automation
+
 - **[FabOps-Toolkit](https://github.com/FabricEssentials/FabOps-Toolkit)**
   - **Original Repository**: [https://github.com/Onyx-Data/FabOps-Toolkit](https://github.com/Onyx-Data/FabOps-Toolkit)
   - **Original Owner**: Onyx-Data
@@ -39,6 +44,11 @@
   - **Original Repository**: [https://github.com/djouallah/Fabric_Notebooks_Demo](https://github.com/djouallah/Fabric_Notebooks_Demo)
   - **Original Owner**: djouallah
   - **Description**: Fabric Python Notebooks examples
+
+- **[FabricStudio](https://github.com/FabricEssentials/FabricStudio)**
+  - **Original Repository**: [https://github.com/gbrueckl/FabricStudio](https://github.com/gbrueckl/FabricStudio)
+  - **Original Owner**: gbrueckl
+  - **Description**: FabricStudio VS code extension by Gerhard Brueckl
 
 - **[FabricTools](https://github.com/FabricEssentials/FabricTools)**
   - **Original Repository**: [https://github.com/dataplat/FabricTools](https://github.com/dataplat/FabricTools)
