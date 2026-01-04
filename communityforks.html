@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Repositories - Fabric Essentials</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .repo-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .repo-item {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px var(--shadow);
+            border-left: 4px solid var(--fabric-green);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .repo-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .repo-name {
+            color: var(--fabric-green);
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0 0 15px 0;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .repo-name:hover {
+            color: var(--fabric-dark-green);
+        }
+        
+        .repo-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        
+        .repo-meta-item {
+            display: flex;
+            align-items: baseline;
+        }
+        
+        .repo-meta-label {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-right: 8px;
+            min-width: 150px;
+        }
+        
+        .repo-meta-value {
+            color: var(--text-light);
+        }
+        
+        .repo-meta-value a {
+            color: var(--fabric-teal);
+            word-break: break-all;
+        }
+        
+        .repo-description {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 1px solid var(--background-light);
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--fabric-green) 0%, var(--fabric-teal) 100%);
+            color: var(--white);
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px var(--shadow);
+            margin: 20px 0;
+        }
+        
+        .back-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .repo-meta-item {
+                flex-direction: column;
+            }
+            
+            .repo-meta-label {
+                min-width: auto;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="logo-container">
+            <img src="./images/fabric_48_color.png" alt="Microsoft Fabric">
+            <img src="./images/The FE listings.png" alt="Fabric Essentials Listings" class="no-shadow">
+        </div>
+        <h1>🌟 Community Repositories</h1>
+        <p class="subtitle">Discover amazing tools and solutions created by talented members of the Microsoft Data Platform community available on GitHub</p>
+    </div>
+    
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+        
+        <div class="repo-list">
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/AzureDevOps-fabric-cicd-sample" class="repo-name" target="_blank">AzureDevOps-fabric-cicd-sample</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/kevchant/AzureDevOps-fabric-cicd-sample" target="_blank">https://github.com/kevchant/AzureDevOps-fabric-cicd-sample</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">kevchant</span>
+                    </div>
+                </div>
+                <div class="repo-description">Shows how to operationalize fabric-cicd to work with Microsoft Fabric and YAML Pipelines in Azure DevOps</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/DWA" class="repo-name" target="_blank">DWA</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/ProdataSQL/DWA" target="_blank">https://github.com/ProdataSQL/DWA</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">ProdataSQL</span>
+                    </div>
+                </div>
+                <div class="repo-description">Fabric Data Warehouse Automation</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/FabOps-Toolkit" class="repo-name" target="_blank">FabOps-Toolkit</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/Onyx-Data/FabOps-Toolkit" target="_blank">https://github.com/Onyx-Data/FabOps-Toolkit</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">Onyx-Data</span>
+                    </div>
+                </div>
+                <div class="repo-description">A Toolkit with multiple tools to manage Microsoft Fabric</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-accelerator" class="repo-name" target="_blank">fabric-accelerator</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/bennyaustin/fabric-accelerator" target="_blank">https://github.com/bennyaustin/fabric-accelerator</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">bennyaustin</span>
+                    </div>
+                </div>
+                <div class="repo-description">Accelerator to build a Microsoft Fabric modern data platform using pre-built reusable Fabric items and an orchestration ELT Framework</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/Fabric-Analytics-MCP" class="repo-name" target="_blank">Fabric-Analytics-MCP</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/santhoshravindran7/Fabric-Analytics-MCP" target="_blank">https://github.com/santhoshravindran7/Fabric-Analytics-MCP</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">santhoshravindran7</span>
+                    </div>
+                </div>
+                <div class="repo-description">A Model Context Protocol (MCP) server that enables AI assistants to securely access and analyze Microsoft Fabric Analytics data through authenticated API calls.</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/Fabric-Archive-Bot" class="repo-name" target="_blank">Fabric-Archive-Bot</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/JamesDBartlett3/Fabric-Archive-Bot" target="_blank">https://github.com/JamesDBartlett3/Fabric-Archive-Bot</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">JamesDBartlett3</span>
+                    </div>
+                </div>
+                <div class="repo-description">A fully automated Microsoft Fabric/Power BI tenant backup solution written in PowerShell</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-cli-powerbi-cicd-sample" class="repo-name" target="_blank">fabric-cli-powerbi-cicd-sample</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample" target="_blank">https://github.com/RuiRomano/fabric-cli-powerbi-cicd-sample</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">RuiRomano</span>
+                    </div>
+                </div>
+                <div class="repo-description">demonstrates a Fabric CI/CD scenario using fabric-cli and GitHub</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-dataops-patterns" class="repo-name" target="_blank">fabric-dataops-patterns</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/kerski/fabric-dataops-patterns" target="_blank">https://github.com/kerski/fabric-dataops-patterns</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">kerski</span>
+                    </div>
+                </div>
+                <div class="repo-description">Templates for weaving DataOps into Microsoft Fabric</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/Fabric_Notebooks_Demo" class="repo-name" target="_blank">Fabric_Notebooks_Demo</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/djouallah/Fabric_Notebooks_Demo" target="_blank">https://github.com/djouallah/Fabric_Notebooks_Demo</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">djouallah</span>
+                    </div>
+                </div>
+                <div class="repo-description">Fabric Python Notebooks examples</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/FabricStudio" class="repo-name" target="_blank">FabricStudio</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/gbrueckl/FabricStudio" target="_blank">https://github.com/gbrueckl/FabricStudio</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">gbrueckl</span>
+                    </div>
+                </div>
+                <div class="repo-description">FabricStudio VS code extension by Gerhard Brueckl</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/FabricTools" class="repo-name" target="_blank">FabricTools</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/dataplat/FabricTools" target="_blank">https://github.com/dataplat/FabricTools</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">dataplat</span>
+                    </div>
+                </div>
+                <div class="repo-description">FabricTools is a free, open-source, community-driven PowerShell module designed to facilitate the management of Microsoft Fabric workspaces and capacities.</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/GitHub-FUAM-Deploymenator" class="repo-name" target="_blank">GitHub-FUAM-Deploymenator</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/kevchant/GitHub-FUAM-Deploymenator" target="_blank">https://github.com/kevchant/GitHub-FUAM-Deploymenator</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">kevchant</span>
+                    </div>
+                </div>
+                <div class="repo-description">FUAM deployment accelerator to push FUAM deployments from GitHub to a Microsoft Fabric tenant</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/msfabricutils" class="repo-name" target="_blank">msfabricutils</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/mrjsj/msfabricutils" target="_blank">https://github.com/mrjsj/msfabricutils</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">mrjsj</span>
+                    </div>
+                </div>
+                <div class="repo-description">Spark-free Python utilities for Microsoft Fabric focused on Data Engineering using Polars and delta-rs</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/pbi-ci-cd-isv-multi-tenant" class="repo-name" target="_blank">pbi-ci-cd-isv-multi-tenant</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/alisonpezzott/pbi-ci-cd-isv-multi-tenant" target="_blank">https://github.com/alisonpezzott/pbi-ci-cd-isv-multi-tenant</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">alisonpezzott</span>
+                    </div>
+                </div>
+                <div class="repo-description">CI/CD scenario Multi Tenant for Microsoft Power BI PRO projects by utilizing fabric-cli and GitHub Actions</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/PBI-InspectorV2" class="repo-name" target="_blank">PBI-InspectorV2</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/NatVanG/PBI-InspectorV2" target="_blank">https://github.com/NatVanG/PBI-InspectorV2</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">NatVanG</span>
+                    </div>
+                </div>
+                <div class="repo-description">Rules-based metadata testing for the Microsoft Power BI visual layer and other Fabric Items.</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/Power-BI-Accessibility-Checker" class="repo-name" target="_blank">Power-BI-Accessibility-Checker</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/stephbruno/Power-BI-Accessibility-Checker" target="_blank">https://github.com/stephbruno/Power-BI-Accessibility-Checker</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">stephbruno</span>
+                    </div>
+                </div>
+                <div class="repo-description">None</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/Power-BI-Backup-Impact-Analysis-Governance-Solution" class="repo-name" target="_blank">Power-BI-Backup-Impact-Analysis-Governance-Solution</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/chris1642/Power-BI-Backup-Impact-Analysis-Governance-Solution" target="_blank">https://github.com/chris1642/Power-BI-Backup-Impact-Analysis-Governance-Solution</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">chris1642</span>
+                    </div>
+                </div>
+                <div class="repo-description">1-click solution for Power BI and Fabric Governance. Automatically backs up reports, models, and dataflows while extracting complete metadata for impact analysis, refresh tracking, and complete lineage - down to the visual level - even when multiple reports across workspaces connect to a single model.</div>
+            </div>
+            
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
