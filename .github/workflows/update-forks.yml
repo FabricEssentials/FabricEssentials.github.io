@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
 
       - name: Generate forks.md
-        run: python scripts/generate_forks_md.py
+        run: python scripts/generate_forks_html.py
         env:
           GH_USERNAME: ${{ github.repository_owner }}
 
