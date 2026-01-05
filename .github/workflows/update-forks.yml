@@ -24,12 +24,12 @@ jobs:
         run: pip install requests
 
       - name: Generate forks.md
-        run: python scripts/generate_forks_md.py
+        run: python scripts/generate_forks_html.py
         env:
           GH_USERNAME: ${{ github.repository_owner }}
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update communityforks.md with latest forked repos"
-          file_pattern: '*forks.md'
+          commit_message: "Update repository HTML with latest forked repos"
+          file_pattern: '*forks.html'

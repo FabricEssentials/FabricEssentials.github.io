@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Repositories - Fabric Essentials</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .repo-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .repo-item {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px var(--shadow);
+            border-left: 4px solid var(--fabric-green);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .repo-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .repo-name {
+            color: var(--fabric-green);
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0 0 15px 0;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .repo-name:hover {
+            color: var(--fabric-dark-green);
+        }
+        
+        .repo-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        
+        .repo-meta-item {
+            display: flex;
+            align-items: baseline;
+        }
+        
+        .repo-meta-label {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-right: 8px;
+            min-width: 150px;
+        }
+        
+        .repo-meta-value {
+            color: var(--text-light);
+        }
+        
+        .repo-meta-value a {
+            color: var(--fabric-teal);
+            word-break: break-all;
+        }
+        
+        .repo-description {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 1px solid var(--background-light);
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--fabric-green) 0%, var(--fabric-teal) 100%);
+            color: var(--white);
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px var(--shadow);
+            margin: 20px 0;
+        }
+        
+        .back-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .repo-meta-item {
+                flex-direction: column;
+            }
+            
+            .repo-meta-label {
+                min-width: auto;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="logo-container">
+            <img src="./images/fabric_48_color.png" alt="Microsoft Fabric">
+            <img src="./images/The FE listings.png" alt="Fabric Essentials Listings" class="no-shadow">
+        </div>
+        <h1>🏢 Microsoft Repositories</h1>
+        <p class="subtitle">Access Microsoft Fabric tools and resources hosted in Microsoft GitHub repositories, which may include non-official or unsupported projects</p>
+    </div>
+    
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+        
+        <div class="repo-list">
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/data-factory-testing-framework" class="repo-name" target="_blank">data-factory-testing-framework</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/data-factory-testing-framework" target="_blank">https://github.com/microsoft/data-factory-testing-framework</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">A stand-alone test framework that allows to write unit tests for Data Factory pipelines on Microsoft Fabric, Azure Data Factory and Azure Synapse Analytics.</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-cicd" class="repo-name" target="_blank">fabric-cicd</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/fabric-cicd" target="_blank">https://github.com/microsoft/fabric-cicd</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">Jumpstart CICD deployments in Microsoft Fabric</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-cli" class="repo-name" target="_blank">fabric-cli</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/fabric-cli" target="_blank">https://github.com/microsoft/fabric-cli</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">⚡ Microsoft Fabric CLI</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-rti-mcp" class="repo-name" target="_blank">fabric-rti-mcp</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/fabric-rti-mcp" target="_blank">https://github.com/microsoft/fabric-rti-mcp</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">MCP server for Fabric Real-Time Intelligence (https://aka.ms/fabricrti) supporting tools for Eventhouse (https://aka.ms/eventhouse), Azure Data Explorer (https://aka.ms/adx, and other RTI services (coming soon)</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/fabric-toolbox" class="repo-name" target="_blank">fabric-toolbox</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/fabric-toolbox" target="_blank">https://github.com/microsoft/fabric-toolbox</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">Fabric toolbox is a repository of tools, accelerators, scripts, and samples to accelerate your success with Microsoft Fabric, brought to you by Fabric CAT.</div>
+            </div>
+            
+            <div class="repo-item">
+                <a href="https://github.com/FabricEssentials/semantic-link-labs" class="repo-name" target="_blank">semantic-link-labs</a>
+                <div class="repo-meta">
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Repository:</span>
+                        <span class="repo-meta-value"><a href="https://github.com/microsoft/semantic-link-labs" target="_blank">https://github.com/microsoft/semantic-link-labs</a></span>
+                    </div>
+                    <div class="repo-meta-item">
+                        <span class="repo-meta-label">Original Owner:</span>
+                        <span class="repo-meta-value">microsoft</span>
+                    </div>
+                </div>
+                <div class="repo-description">Early access to new features for Microsoft Fabric's Semantic Link.</div>
+            </div>
+            
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
