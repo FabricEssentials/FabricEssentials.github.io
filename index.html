@@ -54,10 +54,27 @@
   </div>
 </div>
 
-<div class="counter-section">
-  👁 Views: 
-  <img src="https://fabricessentials.goatcounter.com/count?p=/&style=flat" alt="page views" />
-</div>
+<div class="counter-section" id="goatcounter-counter"></div>
+
+<script>
+  function addGoatCounter() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      window.goatcounter.visit_count({
+        append: '#goatcounter-counter'
+      });
+    } else {
+      setTimeout(addGoatCounter, 100);
+    }
+  }
+  addGoatCounter();
+</script>
+
+<script
+  data-goatcounter="https://fabricessentials.goatcounter.com/count"
+  async
+  src="https://gc.zgo.at/count.js">
+</script>
+
 
 
 </div>
