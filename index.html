@@ -54,30 +54,13 @@
   </div>
 </div>
 
-<div class="counter-section" id="goatcounter-counter" style="
-    display: inline-flex;
-    align-items: center;
-    background-color: #111;
-    color: #31ffff;
-    font-family: 'Segoe UI', sans-serif;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-    gap: 0.5rem;
-    font-size: 1rem;
-">
-  <span style="font-size: 1.2rem;">👁</span>
-  <span class="goatcounter-number">—</span> views
-</div>
+<div class="counter-section" id="goatcounter-counter"></div>
 
 <script>
-  // Wait until GoatCounter loads, then fill the counter
   function addGoatCounter() {
     if (window.goatcounter && window.goatcounter.visit_count) {
       window.goatcounter.visit_count({
-        append: '#goatcounter-counter .goatcounter-number',
-        format: n => n.toLocaleString() // Adds commas to large numbers
+        append: '#goatcounter-counter'
       });
     } else {
       setTimeout(addGoatCounter, 100);
@@ -91,6 +74,7 @@
   async
   src="https://gc.zgo.at/count.js">
 </script>
+
 
 </div>
 
