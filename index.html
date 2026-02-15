@@ -54,20 +54,28 @@
   </div>
 </div>
 
-<div class="info-section">
-  <h2>❗ Important Note</h2>
-  <p>If you find any of these repositories useful, please remember to give credit to the <strong>original source repository</strong> and its creators. Support the community by starring repos, contributing, and sharing your experiences with others!</p>
-</div>
-
 <div class="counter-section">
-  👁 Views: <span data-goatcounter-count="site">—</span>
+  👁 Views: <span id="goatcounter-page-count">—</span>
 </div>
 
-<script
-  data-goatcounter="https://fabricessentials.goatcounter.com/count"
-  async
-  src="https://gc.zgo.at/count.js">
+<script>
+  // Create a GoatCounter script element dynamically
+  const gc = document.createElement('script')
+  gc.src = 'https://gc.zgo.at/count.js'
+  gc.async = true
+  gc.setAttribute('data-goatcounter', 'https://fabricessentials.goatcounter.com/count')
+  
+  // When loaded, fill the span manually
+  gc.onload = () => {
+    const span = document.getElementById('goatcounter-site-count')
+    if (window.goatcounter && span) {
+      span.textContent = window.goatcounter.pagecount || '—'
+    }
+  }
+  
+  document.body.appendChild(gc)
 </script>
+
 
 </div>
 
