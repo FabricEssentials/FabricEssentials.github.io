@@ -55,27 +55,10 @@
 </div>
 
 <div class="counter-section">
-  👁 Views: <span id="goatcounter-page-count">—</span>
+  👁 Views: 
+  <img src="https://fabricessentials.goatcounter.com/count?p=homepage&style=flat" 
+       alt="page views" />
 </div>
-
-<script>
-  // Create a GoatCounter script element dynamically
-  const gc = document.createElement('script')
-  gc.src = 'https://gc.zgo.at/count.js'
-  gc.async = true
-  gc.setAttribute('data-goatcounter', 'https://fabricessentials.goatcounter.com/count')
-  
-  // When loaded, fill the span manually
-  gc.onload = () => {
-    const span = document.getElementById('goatcounter-site-count')
-    if (window.goatcounter && span) {
-      span.textContent = window.goatcounter.pagecount || '—'
-    }
-  }
-  
-  document.body.appendChild(gc)
-</script>
-
 
 </div>
 
